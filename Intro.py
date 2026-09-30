@@ -2,6 +2,44 @@ import streamlit as st
 from PIL import Image
 st.title("Aplicaciones de Inteligencia Artificial.")
 
+st.markdown("""
+<style>
+
+    /* Contenedor principal */
+    .block-container {
+        max-width: 1400px;
+        padding-top: 2rem;
+        padding-bottom: 3rem;
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+
+    /* Título principal */
+    h1 {
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    /* Texto introductorio */
+    .intro {
+        text-align: center;
+        font-size: 18px;
+        margin-bottom: 30px;
+    }
+
+    /* Imágenes */
+    img {
+        border-radius: 10px;
+    }
+
+    /* Espacio entre columnas */
+    [data-testid="column"] {
+        padding: 10px;
+    }
+
+</style>
+""", unsafe_allow_html=True)
+
 with st.sidebar:
   st.subheader("Aplicaciones con Inteligencia Artificial.")
   parrafo = (
