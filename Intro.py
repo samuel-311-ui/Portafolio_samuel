@@ -84,7 +84,7 @@ with col3:
  url = "https://regresionlogistica-uvkgnjnnow96mbafsxfvq2.streamlit.app"
  st.write(f"Vision: [Enlace]({url})")
 
-with col4
+with col4:
  st.subheader("Series de tiempo")
  image = Image.open('series_tiempo.jpg')
  st.image(image, width=200)
