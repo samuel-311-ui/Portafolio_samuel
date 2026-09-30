@@ -33,7 +33,7 @@ with col1:
  st.write(f"YOLO: [Enlace]({url})")
 
  st.subheader("Entrenando Modelos")
- image = Image.open('regresion_viviendas')
+ image = Image.open('regresion_viviendas.jpg')
  st.image(image, width=200)
  st.write("En la siguiente enlace veremos como puedes usar tu modelo entrenado.") 
  url = "https://xn3pg24ztuv6fdiqon8qn3.streamlit.app/"
@@ -48,7 +48,7 @@ with col2:
  st.write(f"Voz a texto: [Enlace]({url})")
 
  st.subheader("Análisis de Datos")
- image = Image.open('nivel_quebradas')
+ image = Image.open('nivel_quebradas.jpg')
  st.image(image, width=190)
  st.write("En la siguiente enlace veremos como se pueden analizar datos usando agentes.") 
  url = "https://dataagente.streamlit.app/"
