@@ -1,6 +1,6 @@
 import streamlit as st
 from PIL import Image
-st.title("Aplicaciones de IoT y machine learning.")
+st.title("Aplicaciones de IoT y machine learning")
 
 st.markdown("""
 <style>
@@ -41,7 +41,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 with st.sidebar:
-  st.subheader("Portafolio Samuel.")
+  st.subheader("Portafolio Samuel")
   parrafo = (
     "Este portafolio reúne un conjunto de aplicaciones interactivas y modelos matemáticos aplicados a la resolución de problemas reales, realizadas en el curso de programación avanzada."
     "A través del análisis de datos, Machine Learning e Internet de las Cosas (IoT), estas herramientas permiten optimizar procesos agrícolas,"
