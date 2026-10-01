@@ -41,11 +41,11 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 with st.sidebar:
-  st.subheader("Aplicaciones con Inteligencia Artificial.")
+  st.subheader("Portafolio Samuel.")
   parrafo = (
-    "La inteligencia artificial permite mejorar la toma de decisiones con el uso de datos, "
-    "automatizar tareas rutinarias y proporcionar análisis avanzados en tiempo real, lo que "
-    "resulta en una mayor eficiencia y precisión en diversos campos."
+    "Este portafolio reúne un conjunto de aplicaciones interactivas y modelos matemáticos aplicados a la resolución de problemas reales."
+    "A través del análisis de datos, Machine Learning e Internet de las Cosas (IoT), estas herramientas permiten optimizar procesos agrícolas,"
+    "monitorear variables ambientales en tiempo real, predecir tendencias clave y transformar datos complejos en decisiones automatizadas y eficientes."
   )
   st.write(parrafo)
 
