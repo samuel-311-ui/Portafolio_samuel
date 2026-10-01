@@ -66,7 +66,7 @@ with col1:
  st.subheader("Fertilidad en Agrosavia")
  image = Image.open('agrosavia.jpg')
  st.image(image, use_container_width=True)
- st.write("Modelo de clasificación KNN aplicado a las características físico-químicas del suelo agronómico colombiano."
+ st.write(" Modelo de clasificación KNN aplicado a las características físico-químicas del suelo agronómico colombiano."
  " Determina la fertilidad y aptitud del suelo de forma instantánea, ayudando a los agricultores a tomar decisiones informadas sobre cultivos e insumos agrícolas.") 
  url = "https://fertilidad-ymzy8pr87tbzjzhwtxoquh.streamlit.app"
  st.write(f"Link: [Enlace]({url})")
