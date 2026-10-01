@@ -74,7 +74,7 @@ with col1:
  st.subheader("Regresión viviendas en California")
  image = Image.open('regresion_viviendas.jpg')
  st.image(image, use_container_width=True)
- st.write("Modelo estadístico y predictivo basado en el conjunto de datos de viviendas en California.
+ st.write("Modelo estadístico y predictivo basado en el conjunto de datos de viviendas en California."
  " Estima el valor comercial de propiedades en función de variables socioeconómicas y geográficas, facilitando la valoración inmobiliaria.") 
  url = "https://gradiente-pvblfgce3s8jam2jxarzvw.streamlit.app"
  st.write(f"Link: [Enlace]({url})")
