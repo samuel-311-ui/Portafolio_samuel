@@ -44,7 +44,7 @@ with st.sidebar:
   st.subheader("Portafolio Samuel")
   parrafo = (
     "Este portafolio reúne un conjunto de aplicaciones interactivas y modelos matemáticos aplicados a la resolución de problemas reales, realizadas en el curso de programación avanzada."
-    "A través del análisis de datos, Machine Learning e Internet de las Cosas (IoT), estas herramientas permiten optimizar procesos agrícolas,"
+    " A través del análisis de datos, Machine Learning e Internet de las Cosas (IoT), estas herramientas permiten optimizar procesos agrícolas,"
     "monitorear variables ambientales en tiempo real, predecir tendencias clave y transformar datos complejos en decisiones automatizadas y eficientes."
   )
   st.write(parrafo)
