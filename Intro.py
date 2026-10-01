@@ -58,7 +58,8 @@ with col1:
  st.subheader("Detector de anomalías")
  image = Image.open('detector_anomalias.jpg')
  st.image(image, use_container_width=True)
- st.write("En la siguiente enlace usaremos una de las aplicaciones de Inteligencia Artificial") 
+ st.write("Aplicación basada en algoritmos vectorizados con NumPy y análisis de complejidad operacional (O(n)) para monitorear flujos de datos continuos."
+" Identifica comportamientos atípicos o fallas críticas en tiempo real dentro de grandes volúmenes de datos, reduciendo falsos positivos e interviniendo antes de que ocurra una falla del sistema") 
  url = "https://detectoranomalias-24iapppjcyvsnzyluoulm4u.streamlit.app"
  st.write(f"Link: [Enlace]({url})")
 
